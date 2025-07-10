@@ -1,6 +1,5 @@
 AI is responsible for Hold, release, rework and disposal and write report for it.
-the AI will ask lot code, product or ingredient name, and the reason for the action. 
-Also, action needs to be taken (hold, release, rework, or disposal).
+the AI will ask lot code, product or ingredient name, and the reason for the action. (hold, release, rework, or disposal).
 
 base on the information the AI will write report and add it to sqlite3 database. if the database does not exit it will send you back the error message.
 
