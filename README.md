@@ -5,7 +5,7 @@ base on the information the AI will write report and add it to sqlite3 database.
 
 the pdf test.pdf will create
 
-to use this add your gemini api key on the file apikey file, run sqltable.py to create database
+to use this add your gemini api key on the file apikey file, run sqltable.py to create database then start the app
 
 ![스크린샷 2025-07-10 014556](https://github.com/user-attachments/assets/586140cf-84c3-403f-8404-5c97423b0ae6)
 
