@@ -95,8 +95,8 @@ def add_to_system(lot :str,pro_or_in : str, action: str,reason: str) -> int:
     """
  
     datas = {
-    "Lot": lot,
-    "Item": pro_or_in,
+    "Item": lot,
+    "Lot": pro_or_in,
     "Reason": reason,
     "Action" : action
     }
@@ -105,7 +105,7 @@ def add_to_system(lot :str,pro_or_in : str, action: str,reason: str) -> int:
 
     cursor = conn.cursor()
     sqlcommend = "INSERT INTO Hold (ITEM, LOT, REASON, ACTION) VALUES (?,?,?,?)"
-    values = (datas.get("Lot"),datas.get("Item"),datas.get("Reason"),datas.get("Action"))
+    values = (datas.get("Item"),datas.get("Lot"),datas.get("Reason"),datas.get("Action"))
 
     try:
         cursor.execute(sqlcommend,values)
