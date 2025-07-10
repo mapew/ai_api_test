@@ -2,6 +2,7 @@ import streamlit as st
 from google import genai
 from google.genai import types
 from random import randint
+import sqlite3
 import fitz
 
 with open("apikey", "r") as file:
