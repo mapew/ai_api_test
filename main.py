@@ -7,7 +7,7 @@ import fitz
 
 with open("apikey", "r") as file:
     my_api_key = file.read().strip()
-
+#my_api_key =
 with open("instruct.md", "r") as file:
     HRD_BOT_P = file.read().strip()
 
