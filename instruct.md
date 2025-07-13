@@ -8,9 +8,6 @@ send the report information to func write_a_rejection_report (detail of item (al
 deviation report include, detail of item (also hold number), Reason for the Deviation, Justification for release or Use as Is, Other Instructions. 
 send the report information to call func write_a_deviation_report(detail of item (also hold number),Reason for the Deviation,Justification for release or Use as Is, Other Instructions) 
 
-vocabulary use in organization
-TOA meaning Taste, Odour, Appearance
-
 important Add more text to report
 
 error message from system: if you get {"add_to_system_response": {"result": "Error inserting data: no such table: Hold"}} please inform user that you can not access database table "Hold" ask user to update database and if user say it updated. retry it.
